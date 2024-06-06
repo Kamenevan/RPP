@@ -1,0 +1,11 @@
+Позитивные тесты:
+1. a=5, b=5, c=5 -> "равносторонний"
+2. a=3, b=4, c=5 -> "разносторонний"
+3. a=7, b=7, c=10 -> "равнобедренный"
+
+Негативные тесты:
+1. a=0, b=1, c=1 -> IncorrectTriangleSides
+2. a=-1, b=1, c=1 -> IncorrectTriangleSides
+3. a=1, b=2, c=3 -> IncorrectTriangleSides
+4. a='a', b=2, c=3 -> IncorrectTriangleSides
+5. a=1, b=1, c='b' -> IncorrectTriangleSides
